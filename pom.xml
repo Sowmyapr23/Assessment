@@ -67,7 +67,6 @@
             <artifactId>junit</artifactId>
             <version>4.13</version>
         </dependency>
-
         <!--        Extent Reports-->
         <!--https://mvnrepository.com/artifact/com.aventstack/extentreports -->
         <dependency>
@@ -75,7 +74,6 @@
             <artifactId>extentreports</artifactId>
             <version>5.0.8</version>
         </dependency>
-
     </dependencies>
 
     <build>

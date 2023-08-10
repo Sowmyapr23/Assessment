@@ -44,5 +44,5 @@ and ExtendReport (Reporting)
 3. After the above steps, we can execute the runner file
 
 **Results:**
-1. Once the execution is completed, Cucumber report can be accessed from target folder [C:\Users\{username}\TestStoreApplication\target]
-2. Extent report can be accessed from reports folder [C:\Users\{username}\TestStoreApplication\reports]
+1. Once the execution is completed, Cucumber report can be accessed from target folder [C:\Users\{username}\Assessment\target]
+2. Extent report can be accessed from reports folder [C:\Users\{username}\Assessment\reports]
