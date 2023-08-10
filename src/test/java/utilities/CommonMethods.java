@@ -1,4 +1,4 @@
-package configurations;
+package utilities;
 
 import org.apache.commons.lang.StringUtils;
 import org.junit.Assert;

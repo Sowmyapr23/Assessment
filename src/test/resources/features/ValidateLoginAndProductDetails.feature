@@ -29,7 +29,7 @@ Feature: Register and Purchase on AutomationTestStore.com
 
     Examples:
       | firstname     | lastname    | email                       | address | city   | region | zipcode | country      | loginName         | password     |
-      | TestStore     | Automation  | testStoreAuto1@yopmail.com  |Alaska   | Alaska | Alaska | 73301   | United States| testStoreAuto1    | Password@123 |
+      | TestStore     | Automation  | testStoreAuto3@yopmail.com  |Alaska   | Alaska | Alaska | 73301   | United States| testStoreAuto3    | Password@123 |
 
 
   @LoginAndAddProductToCart
@@ -51,7 +51,7 @@ Feature: Register and Purchase on AutomationTestStore.com
 
     Examples:
         | loginName       | password     |productMainCategory  |productSubCategory       |productName |productQty|
-        | testStoreAuto1  | Password@123 |productMainCategoryHC|productSubCategoryShampoo|bvl         |2         |
+        | testStoreAuto3  | Password@123 |productMainCategoryHC|productSubCategoryShampoo|bvl         |2         |
 
 
   @CheckOutAndValidateProductInPaymentsPage
@@ -73,5 +73,5 @@ Feature: Register and Purchase on AutomationTestStore.com
 
     Examples:
       | loginName       | password     |productName                      |productQty|
-      | testStoreAuto1  | Password@123 |eau parfumee au the vert shampoo |2         |
+      | testStoreAuto3  | Password@123 |eau parfumee au the vert shampoo |2         |
 

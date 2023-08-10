@@ -1,4 +1,4 @@
-package configurations;
+package utilities;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -17,7 +17,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @use This class is used for creating and generating an extent report
+ * The ExtentReport class is used for creating and generating an extent report
  */
 public class ExtentReport {
 
@@ -28,8 +28,8 @@ public class ExtentReport {
     ExtentTest extentTest = extent.createTest("TestStore Automation Test Result").assignAuthor("Tester").assignDevice("Windows");
 
     /**
+     * The setSparkReport function is to create a new spark report folder
      * @throws IOException
-     * @use This function is to create a new spark report folder
      */
     public void setSparkReport() throws IOException {
         try {
@@ -47,9 +47,8 @@ public class ExtentReport {
     }
 
     /**
-     *
+     * The capture function is used to take screenshots in a specified format
      * @param driver
-     * @use This function is used to take screenshots in a specified format
      * @return
      * @throws IOException
      */
@@ -62,11 +61,11 @@ public class ExtentReport {
     }
 
     /**
+     * The extentReportFormatter method is used to highlight the failed, skipped and passed status logs in Red, yellow and green respectively
+     * Also attach the screenshots to the report
      * @param driver
      * @param stepDesc
      * @param result
-     * @use This method is used to highlight the failed, skipped and passed status logs in Red, yellow and green respectively
-     * Also attach the screenshots to the report
      * @throws IOException
      */
     public void extentReportFormatter(WebDriver driver, String stepDesc, String result) throws IOException {

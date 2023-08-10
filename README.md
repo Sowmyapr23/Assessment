@@ -11,7 +11,7 @@ URL : https://github.com/Sowmyapr23/TestStoreAutomation.git
 1.Create an empty folder in your local machine
 2.In command prompt, navigate to the folder
 3.Give command “git init”
-4.Give command “git clone https://github.com/Sowmyapr23/TestStoreAutomation.git” (The URL is taken from GIT under Code->Local->Clone->HTTPS)
+4.Give command “git clone https://github.com/Sowmyapr23/Assessment.git” (The URL is taken from GIT under Code->Local->Clone->HTTPS)
 5.After cloning, navigate to the folder created inside the workspace folder
 
 **To Open Project in IntelliJ**
@@ -28,7 +28,7 @@ URL : https://github.com/Sowmyapr23/TestStoreAutomation.git
 
 2. Step Definitions - The class file has all the steps written in the feature file using Cucumber Annotations [ValidateLoginAndProductDetails]
 3. Runner File - The class file using annotations such as @RunWith, @CucumberOptions helps in taking care of the execution
-4. Configurations Folder - This folder consists of 2 class files such as CommonMethods (utility/re-usable methods)
+4. utilities Folder - This folder consists of 2 class files such as CommonMethods (utility/re-usable methods)
 and ExtendReport (Reporting)
 5. Resources Folder - Here all the drivers files, locator file, execution and report configuration files are placed
 6. pom.xml - This file has the required maven dependencies
@@ -44,5 +44,5 @@ and ExtendReport (Reporting)
 3. After the above steps, we can execute the runner file
 
 **Results:**
-1. Once the execution is completed, Cucumber report can be accessed from target folder [C:\Users\sowmyar\TestStoreApplication\target]
-2. Extent report can be accessed from reports folder [C:\Users\sowmyar\TestStoreApplication\reports]
+1. Once the execution is completed, Cucumber report can be accessed from target folder [C:\Users\{username}\TestStoreApplication\target]
+2. Extent report can be accessed from reports folder [C:\Users\{username}\TestStoreApplication\reports]

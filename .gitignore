@@ -1,0 +1,5 @@
+#avoid committing the below files/folders/extensions
+
+*.idea
+target/
+reports/

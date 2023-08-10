@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 
 
-@CucumberOptions(features = "src/test/java/features/ValidateLoginAndProductDetails.feature",
+@CucumberOptions(features = "src/test/resources/features/ValidateLoginAndProductDetails.feature",
         glue = "stepDefinitions",
         tags = "@ValidateUserDetailsAfterRegistration or @LoginAndAddProductToCart or @CheckOutAndValidateProductInPaymentsPage",
         plugin = {"pretty","html:target/cucumber-html-report","json:target/cucumber-html-report/cucumber.json"},

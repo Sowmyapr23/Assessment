@@ -1,6 +1,6 @@
 package stepDefinitions;
 
-import configurations.CommonMethods;
+import utilities.CommonMethods;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
